@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <h2>EDITABLE RESUME BUILDER BY SYED FAROOQ ALI</h2>
+<form id="resume form">
+
+    <fieldset>
+
+    <legend>Personal Information</legend>
+    <label for="name">Name</label>
+    <input  type="text" id="name" placeholder="Enter Your Name" required>
+    <br>
+    <br>
+    <label for="email">Email</label>
+<input  type="text" id="email" placeholder="Enter Your Email" required>
+<br><br>
+<label for="contact">Contact No</label>
+<input  type="text" id="Contact" placeholder="Enter Your Phone Number" required>
+
+
+</fieldset>
+
+
+<br>
+
+
+<fieldset>
+<legend>Education</legend>
+<label for="Education">
+ Education   
+</label>
+<textarea name="Education" id="Education" rows="5" placeholder="Enter Your Education"></textarea>
+</fieldset>
+<br>
+<fieldset>
+<legend>Skills</legend>
+<label for="Skills">
+ Skills
+</label>
+<textarea name="Skills" id="Skills" rows="5" placeholder="Your Skills"></textarea>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Work Experience</legend>
+<label for="Work Experience">
+ Work Experience
+</label>
+<textarea name="Experience" id="Experience" rows="5" placeholder="Your Work Experience"></textarea>
+</fieldset>
+<br>
+<button type="submit" class="gen">Generate Your Resume</button>
+
+
+</form>
+
+<div id="output">
+<!-- resume will be generated below -->
+</div>
+<script src="index.js"></script>
+    </body>
+</html>
