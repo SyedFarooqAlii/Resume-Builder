@@ -1,0 +1,1439 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(13deg, #fbdda6, #d198fa, #f8a7f2 );
+    color: #333;
+    /* line-height: 1.6; */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 20px;
+    /* background: #fff0e8; */
+    /* background: #1c1c1c; */
+    /* background: #fffde7; */
+    background: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .main-sec {
+    max-width: 100%;
+    display: flex;
+    padding-bottom: 50px;
+  }
+  .first-container {
+    padding: 0px 5px 0px 5px;
+    width: 59%;
+  }
+  .sec-container {
+    padding: 0px 5px 0px 25px;
+    width: 41%;
+    overflow: hidden;
+  }
+  
+  .career-objective p {
+    color:#555;
+    font-size: 1.1rem;
+    
+  }
+  .career-objective{
+    margin-top: 0;
+  }
+  
+  header {
+    display: flex;
+    
+    width: auto;
+    text-align: left;
+    
+    margin:30px 5px 0px 5px ;
+padding-bottom: 0px;
+    height: auto;
+    
+    color: black;
+    border-radius: 10px;
+  }
+  .head-sec{
+
+    display: flex;
+    
+    width: auto;
+    
+  }
+  .top-sec{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .name-sec{
+    height: auto;
+    margin-top: 50px;
+  }
+  .image-sec{
+
+
+padding-top:50px;
+margin-bottom: 10px;
+    
+  }
+  .profilepicture{
+    border-radius: 10px;
+    height: 170px;
+    width: 170px;
+  }
+  .head-sec h1 {
+    color: black;
+    font-size: 2.1rem;
+    text-transform: uppercase;
+  padding-bottom:10px;
+  letter-spacing: 1px;
+  
+    
+  }
+  .heading{
+    width: 100%;
+    border-bottom: 2px solid black;
+    margin-bottom:8px ;
+  }
+  
+  .sub-h {
+    font-weight: bold;
+    font-size: 2rem;
+    /* color: #ff7043; */
+    color: #2bbbad;
+    margin-bottom: 28px;
+  }
+  
+  .contact{
+  
+    color: black;
+    text-align: left;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  }
+  .sec-contact{
+    margin-top: 20px;
+;
+
+  }
+  .num span{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+    margin-right: 15px;
+  }
+  .num i{
+    color: #2bbbad;
+  
+    font-size: 1.2rem;
+    padding-right: 3px;
+    
+  }
+  .experience p a{
+    font-size: 1.5rem;
+    color: #2bbbad;
+  
+  }
+  .experience ul li{
+    color:#555;
+    font-size: 1.1rem;
+    
+    
+}
+  
+  .education-item p a{
+    font-size: 1.5rem;
+    color: #2bbbad;
+    
+  }
+  
+  .project-item p a{
+    font-size: 1.4rem;
+    color: #2bbbad;
+  
+  }
+  
+  
+  
+  .experience h3 span {
+    color: #2bbbad;
+  }
+  section {
+    margin: 20px 0;
+
+  }
+  
+  h2 {
+    
+    
+    font-size: 1.8rem;
+    color: black;
+    margin-bottom: 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    /* text-decoration: underline 2px solid; */
+  }
+  h3{
+    font-size: 1.7rem;
+    color: #555;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  h4{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #2bbbad;
+    margin-bottom: 5px;
+  }
+  
+  
+  
+  p,
+  ul {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .project-item ul li{
+    font-size: 1.1rem;
+  }
+  .project-item h3{
+color: #2bbbad;
+  }
+  .project-item h4{
+    color: #555;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* skill section */
+  
+  .skills p {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    font-size: 1.1rem;
+  }
+  .skill-sec {
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .skill-sec p{
+    margin-bottom: 10px;
+    
+  }
+  strong{
+    font-size: 1.2rem;
+  }
+  strong .fa-location-dot{
+    margin-left: 20px;
+  }
+  .projects{
+    margin-top: 10px;
+  }
+  
+  .box{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+  .skill-span{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .skillone .box h5{
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .skilltwo .box h5{
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .box li h5{
+      padding: 0px;
+      text-decoration: underline 1px solid #555;
+      font-size: 1.5rem;
+  }
+  
+  .profile-section{
+    max-width: 330%;
+  }
+  .profile-section h4 i{
+    color: white;
+    height: 25px;
+    width: 25px;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2bbbad;
+    margin-bottom: 8px;
+    margin-top: 12px;
+    border-radius: 5px;
+
+  }
+  .profile-section p{
+    text-decoration: underline ;
+  }
+  .linkdiv span{
+    width: 30px;
+  }
+
+  footer{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .line{
+    margin: 0px 0px 20px 0px ;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: relative;
+  }
+  
+  @media (min-width: 440px) and (max-width: 600px) {
+    .container {
+      padding: 10px;
+      margin: 100px auto;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #e0f1ef;
+      color: #333;
+      /* line-height: 1.6; */
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0px auto;
+      padding: 10px;
+      /* background: #fff0e8; */
+      /* background: #1c1c1c; */
+      /* background: #fffde7; */
+      background: #ffffff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    
+    .main-sec {
+      max-width: 100%;
+      display: flex;
+      padding-bottom: 50px;
+    }
+    .first-container {
+      padding: 0px 5px 0px 5px;
+      width: 59%;
+    }
+    .sec-container {
+      padding: 0px 5px 0px 25px;
+      width: 41%;
+      overflow: hidden;
+    }
+    
+    .career-objective p {
+      color:#555;
+      font-size: .9rem;
+      line-height: 1.2rem;
+    }
+    .career-objective{
+      margin-top: 0;
+    }
+    
+    .head-sec{
+  
+      display: flex;
+      
+      width: auto;
+      
+    }
+    .top-sec{
+      display: flex;
+      justify-content: space-between;
+  
+    }
+    .name-sec{
+      height: auto;
+  margin-left: 5px;
+      margin-top: 50px;
+    }
+    .image-sec{
+  
+  
+  padding-top:50px;
+  margin-bottom: 10px;
+      
+    }
+    .profilepicture{
+      border-radius: 10px;
+      height: 120px;
+      width: 120px;
+    }
+    .head-sec h1 {
+      color: black;
+      font-size: 1.6rem;
+      text-transform: uppercase;
+    padding-bottom:10px;
+    letter-spacing: 1px;
+    
+      
+    }
+    .heading{
+      width: 100%;
+      border-bottom: 2px solid black;
+      margin-bottom:8px ;
+    }
+    .sub-h {
+      font-weight: bold;
+      font-size:1.45rem;
+      /* color: #ff7043; */
+      color: #2bbbad;
+      margin-bottom: 28px;
+    }
+    
+    .contact{
+    
+      color: black;
+      text-align: left;
+    width: 100%;
+display: flex;
+/* flex-direction: column; */
+
+
+  
+    }
+    .sec-contact{
+      margin-top: 0px;
+  ;
+  
+    }
+    
+    
+    
+    .num span{
+      font-size: .9rem;
+      font-weight: 500;
+      color: black;
+      margin-bottom: 0rem;
+      
+    }
+    .num{
+      margin-bottom: 10px;
+    }
+    .num i{
+      color: #2bbbad;
+    
+      font-size: 1.2rem;
+      padding-right: 3px;
+      
+    }
+    
+    
+    
+    .experience p a{
+      font-size: 1.5rem;
+      color: #2bbbad;
+    
+    }
+    .experience ul li{
+      color:#555;
+      font-size: .9rem;
+      line-height: 1.2rem;
+      
+  }
+    
+    .education-item p a{
+      font-size: 1.5rem;
+      color: #2bbbad;
+      
+    }
+    
+    .project-item p a{
+      font-size: 1.5rem;
+      color: #2bbbad;
+    
+    }
+    
+    
+    
+    .experience h3 span {
+      color: #2bbbad;
+    }
+    section {
+      margin: 20px 0;
+  
+    }
+    
+    h2 {
+      
+      
+      font-size: 1.4rem;
+      color: black;
+      margin-bottom: 0px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      /* text-decoration: underline 2px solid; */
+    }
+    h3{
+      font-size: 1.35rem;
+      color: #555;
+      font-weight: 400;
+      margin-bottom: 8px;
+    }
+    h4{
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: #2bbbad;
+      margin-bottom: 5px;
+    }
+    
+    
+    
+    p,
+    ul {
+      color: #555;
+      margin-bottom: 10px;
+      font-size: .9rem;
+      line-height: 1.2rem;
+    }
+    
+    .project-item ul li{
+      font-size: .9rem;
+      line-height: 1.2rem;
+    }
+    .project-item h3{
+  color: #2bbbad;
+    }
+    .project-item h4{
+      color: #555;
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    
+    /* skill section */
+    
+    .skills p {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0px;
+      font-size: 1.05rem;
+    }
+    .skill-sec {
+      
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+    .skill-sec p{
+      margin-bottom: 10px;
+      
+    }
+    strong{
+      font-size: 1.2rem;
+    }
+    strong .fa-location-dot{
+      margin-left: 20px;
+    }
+    .projects{
+      margin-top: 10px;
+    }
+    
+    .box{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .skill-span{
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    
+    .profile-section{
+      max-width: 330%;
+    }
+    .profile-section h4 i{
+      color: white;
+      height: 20px;
+      width: 20px;
+      font-size: 1.5rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #2bbbad;
+      margin-bottom: 8px;
+      margin-top: 12px;
+      border-radius: 5px;
+  
+    }
+    .profile-section p{
+      text-decoration: underline ;
+      
+    }
+    .linkdiv span{
+      width: 30px;
+    }
+  
+    
+    .line{
+      margin: 0px 0px 20px 0px ;
+      width: 100%;
+      height: 2px;
+      background-color: black;
+      position: relative;
+    }
+  
+    
+    
+  }
+  @media (min-width: 390px) and (max-width: 440px) {
+
+
+    .container {
+      max-width: 800px;
+      margin: 0px auto;
+      padding: 5px;
+      /* background: #fff0e8; */
+      /* background: #1c1c1c; */
+      /* background: #fffde7; */
+      background: #ffffff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    
+    .main-sec {
+      max-width: 100%;
+      display: flex;
+      padding-bottom: 50px;
+    }
+    .first-container {
+      padding: 0px 5px 0px 5px;
+      width: 59%;
+    }
+    .sec-container {
+      padding: 0px 0px 0px 25px;
+      width: 41%;
+      overflow: hidden;
+    }
+    
+    .career-objective p {
+      color:#555;
+      font-size: .8rem;
+      line-height: 1.2rem;
+    }
+    .career-objective{
+      margin-top: 20px;
+    }
+    
+    .head-sec{
+  
+      display: flex;
+      
+      width: auto;
+      
+    }
+    .top-sec{
+      display: flex;
+      justify-content: space-between;
+  
+    }
+    .name-sec{
+      height: auto;
+  
+      margin-top: 50px;
+    }
+    .image-sec{
+  
+  
+  padding-top:50px;
+  margin-bottom: 10px;
+      
+    }
+    .profilepicture{
+      border-radius: 10px;
+      height: 100px;
+      width: 100px;
+    }
+    .head-sec h1 {
+      color: black;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+    padding-bottom:10px;
+    letter-spacing: 1px;
+    
+      
+    }
+    
+    .sub-h {
+      font-weight: bold;
+      font-size:1.3rem;
+      /* color: #ff7043; */
+      color: #2bbbad;
+      margin-bottom: 20px;
+    }
+    .heading{
+      width: 100%;
+      border-bottom: 2px solid black;
+      margin-bottom:6px ;
+    }
+    .contact{
+    
+      color: black;
+      text-align: left;
+    width: 100%;
+display: flex;
+flex-direction: column;
+
+
+  
+    }
+    .sec-contact{
+      margin-top: 0px;
+  ;
+  
+    }
+    
+    
+    
+    .num span{
+      font-size: .8rem;
+      font-weight: 500;
+      color: black;
+      margin-bottom: 0rem;
+      
+    }
+    .num{
+      margin-bottom: 10px;
+    }
+    .num i{
+      color: #2bbbad;
+    
+      font-size: 1rem;
+      padding-right: 3px;
+      
+    }
+    
+    
+    
+    .experience p a{
+      font-size: 1.5rem;
+      color: #2bbbad;
+    
+    }
+    .experience ul li{
+      color:#555;
+      font-size: .8rem;
+      line-height: 1.2rem;
+      
+  }
+    
+    .education-item p a{
+      font-size: 1.5rem;
+      color: #2bbbad;
+      
+    }
+    
+    .project-item p a{
+      font-size: 1.5rem;
+      color: #2bbbad;
+    
+    }
+    
+
+    section {
+      margin: 20px 0;
+  
+    }
+    
+    h2 {
+      
+      font-family: sans-serif;
+      font-size: 1.05rem;
+      color: black;
+      margin-bottom: 0px;
+      font-weight: 550;
+      text-transform: uppercase;
+      letter-spacing: .3px;
+      /* text-decoration: underline 2px solid; */
+    }
+    h3{
+      font-size: 1rem;
+      color: #555;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    h4{
+      font-size: .96rem;
+      font-weight: 600;
+      color: #2bbbad;
+      margin-bottom: 8px;
+    }
+    
+    
+    
+    p,
+    ul {
+      color: #555;
+      margin-bottom: 10px;
+      font-size: .8rem;
+      line-height: 1.2rem;
+    }
+    
+    .project-item ul li{
+      font-size: .8rem;
+      line-height: 1.2rem;
+    }
+    .project-item h3{
+  color: #2bbbad;
+    }
+    .project-item h4{
+      color: #555;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+    .skill-sec p{
+      margin-bottom: 10px;
+      font-size: .9rem;
+    }
+    strong{
+      font-size: .9rem;
+    }
+    strong .fa-location-dot{
+      margin-left: 20px;
+    }
+    .profile-section h4 i{
+      color: white;
+      height: 18px;
+      width: 18px;
+      font-size: 1.2rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #2bbbad;
+      margin-bottom: 8px;
+      margin-top: 12px;
+      border-radius: 5px;
+  
+    }
+    .profile-section p{
+      font-size: .8rem;
+    }
+    .line{
+      margin: 0px 0px 20px 0px ;
+      width: 100%;
+      height: 2px;
+      background-color: black;
+      position: relative;
+    }
+  
+  }
+  @media (min-width: 320px) and (max-width: 390px) {
+
+
+    .container {
+      max-width:800px;
+      margin: 0px auto;
+      padding: 5px;
+      /* background: #fff0e8; */
+      /* background: #1c1c1c; */
+      /* background: #fffde7; */
+      background: #ffffff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 0px;
+    }
+    
+    .main-sec {
+      max-width: 100%;
+      display: flex;
+      padding-bottom: 50px;
+    }
+    .first-container {
+      padding: 0px 5px 0px 5px;
+      width: 60%;
+    }
+    .sec-container {
+      padding: 0px 0px 0px 12px;
+      width: 40%;
+      overflow: hidden;
+    }
+    
+    .career-objective p {
+      color:#555;
+      font-size: .65rem;
+    }
+    .career-objective{
+      margin-top: 10px;
+    }
+    
+    .head-sec{
+  
+      display: flex;
+      
+      width: auto;
+      
+    }
+    .top-sec{
+      display: flex;
+      justify-content: space-between;
+  
+    }
+    .name-sec{
+      height: auto;
+  margin-left: 5px;
+      margin-top: 20px;
+    }
+    .image-sec{
+  
+  
+  padding-top:20px;
+  margin-bottom: 10px;
+      
+    }
+    .profilepicture{
+      border-radius: 10px;
+      height: 80px;
+      width: 80px;
+    }
+    .heading{
+      width: 100%;
+      border-bottom: 1.5px solid black;
+      margin-bottom:2px ;
+    }
+    .head-sec h1 {
+      color: black;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+    padding-bottom:2px;
+    letter-spacing: 1px;
+    
+      
+    }
+    
+    .sub-h {
+      font-weight: bold;
+      font-size:1rem;
+      padding-top: 2px;
+      /* color: #ff7043; */
+      color: #2bbbad;
+      margin-bottom: 10px;
+    }
+    
+    .contact{
+    
+      color: black;
+      text-align: left;
+    width: 100%;
+display: flex;
+/* flex-direction: column; */
+
+
+  
+    }
+    .sec-contact{
+      margin-top: 0px;
+  ;
+  
+    }
+    
+    
+    
+    .num span{
+      font-size: .65rem;
+      font-weight: 500;
+      color: black;
+      margin-bottom: 0rem;
+      
+    }
+    .num{
+      margin-bottom: 2px;
+    }
+    .num i{
+      color: #2bbbad;
+    
+      font-size: .8rem;
+      padding-right: 3px;
+      
+    }
+    
+    
+    
+    .experience p a{
+      font-size: 1rem;
+      color: #2bbbad;
+    
+    }
+    .experience ul li{
+      color:#555;
+      font-size: .65rem;
+      
+  }
+  ul {
+    list-style-type: disc;
+    margin-left: 10px;
+  }
+    
+    .education-item p a{
+      font-size: 1rem;
+      color: #2bbbad;
+      
+    }
+    
+    .project-item p a{
+      font-size: 1rem;
+      color: #2bbbad;
+    
+    }
+    
+
+    section {
+      margin: 10px 0;
+  
+    }
+    
+    h2 {
+      
+      font-family: sans-serif;
+      font-size: .9rem;
+      color: black;
+      margin-bottom:0px;
+      font-weight: 550;
+      text-transform: uppercase;
+      letter-spacing: .3px;
+      /* text-decoration: underline  1.3px solid; */
+    }
+    h3{
+      font-size: .86rem;
+      color: #555;
+      font-weight: 600;
+      margin-bottom: 3px;
+    }
+    h4{
+      font-size: .8rem;
+      font-weight: 600;
+      color: #2bbbad;
+      margin-bottom: 2px;
+    }
+    
+    
+    
+    p,
+    ul {
+      color: #555;
+      margin-bottom: 4px;
+      font-size: .65rem;
+    }
+    
+    .project-item ul li{
+      font-size: .65rem;
+    }
+    .project-item h3{
+  color: #2bbbad;
+    }
+    .project-item h4{
+      color: #555;
+      font-size: .7rem;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+    .skill-sec p{
+      margin-bottom: 0px;
+      font-size: .7rem;
+      margin-top: 3px;
+    }
+    strong{
+      font-size: .7rem;
+    }
+    strong .fa-location-dot{
+      margin-left: 20px;
+    }
+    .profile-section h4 i{
+      color: white;
+      height: 15px;
+      width: 15px;
+      font-size: 1rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #2bbbad;
+      margin-bottom: 6px;
+      margin-top: 5px;
+      border-radius: 2px;
+  
+    }
+    .profile-section p{
+      font-size: .6rem;
+    }
+    .line{
+      margin: 0px 0px 20px 0px ;
+      width: 100%;
+      height: 1.5px;
+      background-color: black;
+      position: relative;
+      display: none;
+    }
+    
+  
+  }
+
+
+
+  @media (min-width: 600px) and (max-width: 820px){
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #e0f1ef;
+      color: #333;
+      /* line-height: 1.6; */
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0px auto;
+      padding: 20px;
+      /* background: #fff0e8; */
+      /* background: #1c1c1c; */
+      /* background: #fffde7; */
+      background: #ffffff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    
+    .main-sec {
+      max-width: 100%;
+      display: flex;
+      padding-bottom: 50px;
+    }
+    .first-container {
+      padding: 0px 5px 0px 5px;
+      width: 59%;
+    }
+    .sec-container {
+      padding: 0px 5px 0px 25px;
+      width: 41%;
+      overflow: hidden;
+    }
+    
+    .career-objective p {
+      color:#555;
+      font-size: 1.02rem;
+      line-height: 1.2rem;
+    }
+    .career-objective{
+      margin-top: 0;
+    }
+    
+    header {
+      display: flex;
+      
+      width: auto;
+      text-align: left;
+      
+      margin:30px 5px 0px 5px ;
+  padding-bottom: 0px;
+      height: auto;
+      
+      color: black;
+      border-radius: 10px;
+    }
+    .head-sec{
+  
+      display: flex;
+      
+      width: auto;
+      
+    }
+    .heading{
+      width: 100%;
+      border-bottom: 2px solid black;
+      margin-bottom:8px ;
+    }
+    .top-sec{
+      display: flex;
+      justify-content: space-between;
+  
+    }
+    .name-sec{
+      height: auto;
+      margin-top: 50px;
+    }
+    .image-sec{
+  
+  
+  padding-top:50px;
+  margin-bottom: 10px;
+      
+    }
+    .profilepicture{
+      border-radius: 10px;
+      height: 160px;
+      width: 160px;
+    }
+    .head-sec h1 {
+      color: black;
+      font-size: 2.1rem;
+      text-transform: uppercase;
+    padding-bottom:10px;
+    letter-spacing: 1px;
+    
+      
+    }
+    
+    .sub-h {
+      font-weight: bold;
+      font-size: 2rem;
+      /* color: #ff7043; */
+      color: #2bbbad;
+      margin-bottom: 28px;
+    }
+    
+    .contact{
+    
+      color: black;
+      text-align: left;
+    width: 100%;
+    display: flex;
+    gap: 12rem;
+  
+    }
+    .sec-contact{
+      margin-top: 20px;
+  ;
+  
+    }
+    
+    
+    
+    .num span{
+      font-size: 1.02rem;
+      font-weight: 500;
+      color: black;
+    }
+    .num i{
+      color: #2bbbad;
+    
+      font-size: 1.2rem;
+      padding-right: 3px;
+      
+    }
+    
+    
+    
+    .experience p a{
+      font-size: 1.5rem;
+      color: #2bbbad;
+    
+    }
+    .experience ul li{
+      color:#555;
+      font-size: 1.02rem;
+      line-height: 1.2rem;
+      
+  }
+    
+    .education-item p a{
+      font-size: 1.5rem;
+      color: #2bbbad;
+      
+    }
+    
+    .project-item p a{
+      font-size: 1.5rem;
+      color: #2bbbad;
+    
+    }
+    
+    
+    
+    .experience h3 span {
+      color: #2bbbad;
+    }
+    section {
+      margin: 20px 0;
+  
+    }
+    
+    h2 {
+      
+      
+      font-size: 1.7rem;
+      color: black;
+      margin-bottom: 0px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      /* text-decoration: underline 2px solid; */
+    }
+    h3{
+      font-size: 1.6rem;
+      color: #555;
+      font-weight: 400;
+      margin-bottom: 8px;
+    }
+    h4{
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: #2bbbad;
+      margin-bottom: 5px;
+    }
+    
+    
+    
+    p,
+    ul {
+      color: #555;
+      margin-bottom: 10px;
+      font-size: 1.02rem;
+      line-height: 1.2rem;
+    }
+    
+    .project-item ul li{
+      font-size: 1.02rem;
+      line-height: 1.2rem;
+    }
+    .project-item h3{
+  color: #2bbbad;
+    }
+    .project-item h4{
+      color: #555;
+      font-size: 1.3rem;
+      font-weight: 500;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    
+    /* skill section */
+    
+    .skills p {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0px;
+      font-size: 1.05rem;
+    }
+    .skill-sec {
+      
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+    .skill-sec p{
+      margin-bottom: 10px;
+      
+    }
+    strong{
+      font-size: 1.2rem;
+    }
+    strong .fa-location-dot{
+      margin-left: 20px;
+    }
+    .projects{
+      margin-top: 10px;
+    }
+    
+    .box{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .skill-span{
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    
+    .profile-section{
+      max-width: 330%;
+    }
+    .profile-section h4 i{
+      color: white;
+      height: 20px;
+      width: 20px;
+      font-size: 1.5rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #2bbbad;
+      margin-bottom: 8px;
+      margin-top: 12px;
+      border-radius: 5px;
+  
+    }
+    .profile-section p{
+      text-decoration: underline ;
+      
+    }
+    .linkdiv span{
+      width: 30px;
+    }
+  
+    
+    .line{
+      margin: 0px 0px 20px 0px ;
+      width: 100%;
+      height: 2px;
+      background-color: black;
+      position: relative;
+    }
+    .out-btn{
+      content: "Download Resume";
+      background-image:linear-gradient(43deg, #9441d0 , #c850c0 , #ffcc70);
+      color: white;
+      padding: 15px 20px;
+      position: relative;
+      bottom: 5rem;
+      left: 0px;
+      border-radius: 10px;
+      font-size: 2rem;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  border: transparent;   
+  }
+  
+
+  }

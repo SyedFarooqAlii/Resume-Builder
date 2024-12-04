@@ -1,0 +1,939 @@
+
+body{
+   margin: 0;
+   padding: 0;
+    background: linear-gradient(43deg, #d198fa, #f8a7f2 , #fbdda6);
+}
+.about-sec{
+    margin: 0px;
+    background: linear-gradient(43deg, #d198fa, #f8a7f2 , #fbdda6);
+}
+.first-div{
+    margin: 40px 100px 50px 100px;
+
+    background: white;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+}
+.achi-first-div{
+    margin: 40px 50px 50px 50px;
+
+    background-color: #fff;
+    
+}
+.skill-first-div{
+    margin: 40px 50px 50px 50px;
+
+    background-color: #fff;
+    
+}
+#about h3{
+    margin-bottom: 0px;
+}
+.first-div h3{
+    width: 100%;
+    background: linear-gradient(43deg, #9441d0, #ed85e6);
+    color: white;
+    height: 50px;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+padding-left: 30px;   
+margin-bottom: 0px; 
+font-size: 2rem;
+
+}
+.achi-first-div h3{
+    width: 100%;
+    background-color: #1c635d;
+    color: white;
+    height: 44px;
+    display: flex;
+    align-items: center;
+padding-left: 30px;   
+margin-bottom: 50px; 
+}
+.skill-first-div h3{
+    width: 100%;
+
+    color: white;
+    height: 44px;
+    display: flex;
+    align-items: center;
+padding-left: 30px;   
+margin-bottom: 50px; 
+}
+.inp-cont{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 25px 20px;
+    width: 28%;
+    position: relative;
+    
+    
+}
+.achi-inp-cont{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 25px 10px;
+    width:46%;
+    position: relative;
+    
+}
+.pf{
+
+    padding-top: 7px;
+    padding-left: 8px;
+}
+.input-sec{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+    background:rgba(255,255,255, 0.1);
+    /* backdrop-filter: blur(300px); */
+    border-radius: 20px;
+}
+.first-div .color{
+    position: absolute;
+    filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-sec .color:nth-child(1){
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(23deg, #bb74ed, #ed85e6 , #ffcc70);
+opacity: .4;
+}
+.res-btn{
+    
+        background-image:linear-gradient(43deg, #9441d0 , #c850c0 , #ffcc70);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 10px;
+        font-size: 2rem;
+
+    margin-bottom: 50px;
+ border: transparent;   
+}
+
+#down-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+
+
+}
+.res-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rem{
+    height: 0;
+    width: 0;
+    display: none;
+}
+
+
+    
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.8rem;
+}
+.navbar-brand-text{
+
+    font-weight: 600;
+    background-image:linear-gradient(43deg, #9441d0 , #c850c0 );
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.navbar-brand-text i{
+    background-image:linear-gradient(43deg, #9441d0 , #c850c0 , #ffcc70);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+button{
+    border: 1px solid #084C41;
+    padding: 2px 8px;
+    background-color: #1c635d;
+    color: white;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.btn{
+width: 100%;
+align-items: end;
+display: flex;
+justify-content: flex-end;
+text-align: right;
+
+}
+
+label{
+
+    margin-bottom: 4px;
+    color: #9441d0;
+}
+input::placeholder{
+    padding-left: 13px;
+    color: #9441d0;
+}
+input text{
+    margin-left: 30px;
+}
+input{
+  width: 100%;
+  height: 37px;
+  outline: none;
+  border: 1.4px solid #9441d0;
+border-radius: 4px;
+  padding-left: 13px;
+  background: transparent;
+  color: #9441d0;
+}
+input:focus{
+    outline:1.5px solid #9441d0;
+}
+.gen{
+    border: 2px solid #1c635d;
+padding: 14px 12px;
+background-color: #1c635d;
+border-radius: 2px;
+color: white;
+font-size: 1.6rem;
+margin-left: 50px;
+margin-top: 20px;
+margin-bottom: 100px;
+transition: .3s;
+}
+.gen:hover{
+    background-color: white;
+    border: 2px solid #1c635d;
+    color: black;
+
+}
+@media (min-width:760px) and (max-width:1016px) {
+
+    .about-sec{
+        margin: 0px;
+        background-color: white;
+    }
+    .first-div{
+        margin: 40px 50px 50px 50px;
+        border: .2px solid rgb(215, 212, 212);
+        background-color: #fff;
+            
+    }
+    .achi-first-div{
+        margin: 40px 50px 50px 50px;
+        border: .2px solid rgb(215, 212, 212);
+        background-color: #fff;
+        
+    }
+    .skill-first-div{
+        margin: 40px 50px 50px 50px;
+        border: .2px solid rgb(215, 212, 212);
+        background-color: #fff;
+        
+    }
+    #about h3{
+        margin-bottom: 50px;
+    }
+    .first-div h3{
+        width: 100%;
+        background-color: #1c635d;
+        color: white;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    padding-left: 30px;   
+    margin-bottom: 0px; 
+    
+    }
+    .achi-first-div h3{
+        width: 100%;
+        background-color: #1c635d;
+        color: white;
+        height: 44px;
+        display: flex;
+        align-items: center;
+    padding-left: 30px;   
+    margin-bottom: 50px; 
+    }
+    .skill-first-div h3{
+        width: 100%;
+        background-color: #1c635d;
+        color: white;
+        height: 44px;
+        display: flex;
+        align-items: center;
+    padding-left: 30px;   
+    margin-bottom: 50px; 
+    }
+    .inp-cont{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 15px 25px 15px;
+        width: 26%;
+        gap: 4px;
+    }
+    .achi-inp-cont{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 15px 25px 15px;
+        width: 42%;
+        gap: 4px;
+    }
+    
+    
+    
+    .skill-inp-cont{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20px 25px 24px;
+        width: 35%;
+    }
+    
+    .pf{
+    
+        padding-top: 7px;
+        padding-left: 8px;
+    }
+    .input-sec{
+        
+        width: 100%;
+    
+        align-items: center;
+        justify-content: center;
+    }
+    .achi-input-sec{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    
+        align-items: center;
+        justify-content: center;
+        margin:20px 20px 25px 10px; ;
+    }
+    .input-group{
+    padding: 0px 25px 0px 25px;
+    width: 70%;
+    }
+    .input-group input{
+        margin-bottom: 15px;
+        margin-top: 2px;
+        
+    }
+    #rem{
+        height: 0;
+        width: 0;
+        display: none;
+    }
+    
+    
+    
+    button{
+        border: 1px solid #084C41;
+        padding: 2px 8px;
+        background-color: #1c635d;
+        color: white;
+        border-radius: 2px;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .btn{
+    width: 100%;
+    align-items: end;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    
+    }
+    
+    label{
+
+        margin-bottom: 4px;
+        color: #9441d0;
+    }
+    input::placeholder{
+        padding-left: 13px;
+        color: #9441d0;
+    }
+    input text{
+        margin-left: 30px;
+    }
+    input{
+      width: 100%;
+      height: 37px;
+      outline: none;
+      border: 1.4px solid #9441d0;
+    border-radius: 4px;
+      padding-left: 13px;
+      background: transparent;
+      color: #9441d0;
+    }
+    input:focus{
+        outline:1.5px solid #9441d0;
+    }
+}
+@media (min-width:520px) and (max-width:760px) {
+
+    .about-sec{
+        margin: 0px;
+        background-color: white;
+    }
+    .first-div{
+        margin: 40px 50px 50px 50px;
+        border: .2px solid rgb(215, 212, 212);
+        background-color: #fff;
+            
+    }
+    .achi-first-div{
+        margin: 40px 50px 50px 50px;
+        border: .2px solid rgb(215, 212, 212);
+        background-color: #fff;
+        
+    }
+    .skill-first-div{
+        margin: 40px 50px 50px 50px;
+        border: .2px solid rgb(215, 212, 212);
+        background-color: #fff;
+        
+    }
+    #about h3{
+        margin-bottom: 50px;
+    }
+    .first-div h3{
+        width: 100%;
+        background-color: #1c635d;
+        color: white;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    padding-left: 30px;   
+    margin-bottom: 0px; 
+    
+    
+    }
+    .achi-first-div h3{
+        width: 100%;
+        background-color: #1c635d;
+        color: white;
+        height: 44px;
+        display: flex;
+        align-items: center;
+    padding-left: 30px;   
+    margin-bottom: 50px; 
+    }
+    .skill-first-div h3{
+        width: 100%;
+        background-color: #1c635d;
+        color: white;
+        height: 44px;
+        display: flex;
+        align-items: center;
+    padding-left: 30px;   
+    margin-bottom: 50px; 
+    }
+    .inp-cont{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 15px 25px 15px;
+        width: 42%;
+        gap: 4px;
+    }
+    .achi-inp-cont{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 15px 25px 15px;
+        width: 42%;
+        gap: 4px;
+    }
+    #car-inp{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 15px 25px 15px;
+        width: 91%;
+        gap: 4px;
+        margin-top: 0px;
+    }
+    
+    
+    
+    .skill-inp-cont{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20px 25px 24px;
+        width: 35%;
+    }
+    
+    .pf{
+    
+        padding-top: 7px;
+        padding-left: 8px;
+    }
+    .input-sec{
+        
+        width: 100%;
+    
+        align-items: center;
+        justify-content: center;
+    }
+    .achi-input-sec{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    
+        align-items: center;
+        justify-content: center;
+        margin:20px 20px 25px 10px; ;
+    }
+    .input-group{
+    padding: 0px 25px 0px 25px;
+    width: 70%;
+    }
+    .input-group input{
+        margin-bottom: 15px;
+        margin-top: 2px;
+        
+    }
+    #rem{
+        height: 0;
+        width: 0;
+        display: none;
+    }
+    
+    
+    
+    button{
+        border: 1px solid #084C41;
+        padding: 2px 8px;
+        background-color: #1c635d;
+        color: white;
+        border-radius: 2px;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .btn{
+    width: 100%;
+    align-items: end;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    
+    }
+    label{
+
+        margin-bottom: 4px;
+        color: #9441d0;
+    }
+    input::placeholder{
+        padding-left: 13px;
+        color: #9441d0;
+    }
+    input text{
+        margin-left: 30px;
+    }
+    input{
+      width: 100%;
+      height: 37px;
+      outline: none;
+      border: 1.4px solid #9441d0;
+    border-radius: 4px;
+      padding-left: 13px;
+      background: transparent;
+      color: #9441d0;
+    }
+    input:focus{
+        outline:1.5px solid #9441d0;
+    }
+}
+@media (min-width:420px) and (max-width:520px) {
+
+    .about-sec{
+        margin: 0px;
+        background-color: white;
+    }
+    .first-div{
+        margin: 40px 30px 50px 30px;
+        border: .2px solid rgb(215, 212, 212);
+        background-color: #fff;
+            
+    }
+    .achi-first-div{
+        margin: 40px 50px 50px 50px;
+        border: .2px solid rgb(215, 212, 212);
+        background-color: #fff;
+        
+    }
+    .skill-first-div{
+        margin: 40px 50px 50px 50px;
+        border: .2px solid rgb(215, 212, 212);
+        background-color: #fff;
+        
+    }
+    #about h3{
+        margin-bottom: 50px;
+    }
+    .first-div h3{
+        width: 100%;
+        background-color: #1c635d;
+        color: white;
+        height: 50px;
+        display: flex;
+        font-size: 1.5rem;
+        align-items: center;
+    padding-left: 30px;   
+    margin-bottom: 0px; 
+    
+    
+    }
+    .achi-first-div h3{
+        width: 100%;
+        background-color: #1c635d;
+        color: white;
+        height: 44px;
+        display: flex;
+        align-items: center;
+    padding-left: 30px;   
+    margin-bottom: 50px; 
+    }
+    .skill-first-div h3{
+        width: 100%;
+        background-color: #1c635d;
+        color: white;
+        height: 44px;
+        display: flex;
+        align-items: center;
+    padding-left: 30px;   
+    margin-bottom: 50px; 
+    }
+    .inp-cont{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 15px 25px 15px;
+        width: 88%;
+        gap: 4px;
+    }
+    .achi-inp-cont{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 15px 25px 15px;
+        width: 88%;
+        gap: 4px;
+    }
+    #car-inp{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 15px 25px 15px;
+        width: 88%;
+        gap: 4px;
+        margin-top: 0px;
+    }
+    
+    
+    
+    .skill-inp-cont{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20px 25px 24px;
+        width: 35%;
+    }
+    
+    .pf{
+    
+        padding-top: 7px;
+        padding-left: 8px;
+    }
+    .input-sec{
+        
+        width: 100%;
+    
+        align-items: center;
+        justify-content: center;
+    }
+    .achi-input-sec{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    
+        align-items: center;
+        justify-content: center;
+        margin:20px 20px 25px 10px; ;
+    }
+    .input-group{
+    padding: 0px 25px 0px 25px;
+    width: 70%;
+    }
+    .input-group input{
+        margin-bottom: 15px;
+        margin-top: 2px;
+        
+    }
+    #rem{
+        height: 0;
+        width: 0;
+        display: none;
+    }
+    
+    
+    
+    button{
+        border: 1px solid #084C41;
+        padding: 2px 8px;
+        background-color: #1c635d;
+        color: white;
+        border-radius: 2px;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .btn{
+    width: 100%;
+    align-items: end;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    
+    }
+    label{
+
+        margin-bottom: 4px;
+        color: #9441d0;
+    }
+    input::placeholder{
+        padding-left: 13px;
+        color: #9441d0;
+    }
+    input text{
+        margin-left: 30px;
+    }
+    input{
+      width: 100%;
+      height: 37px;
+      outline: none;
+      border: 1.4px solid #9441d0;
+    border-radius: 4px;
+      padding-left: 13px;
+      background: transparent;
+      color: #9441d0;
+    }
+    input:focus{
+        outline:1.5px solid #9441d0;
+    }
+}
+@media (min-width:320px) and (max-width:420px) {
+
+    .about-sec{
+        margin: 0px;
+        background-color: white;
+    }
+    .first-div{
+        margin: 40px 10px 50px 10px;
+        border: .2px solid rgb(215, 212, 212);
+        background-color: #fff;
+            
+    }
+    .achi-first-div{
+        margin: 40px 50px 50px 50px;
+        border: .2px solid rgb(215, 212, 212);
+        background-color: #fff;
+        
+    }
+    .skill-first-div{
+        margin: 40px 50px 50px 50px;
+        border: .2px solid rgb(215, 212, 212);
+        background-color: #fff;
+        
+    }
+    #about h3{
+        margin-bottom: 50px;
+    }
+    .first-div h3{
+        width: 100%;
+        background-color: #1c635d;
+        color: white;
+        height: 50px;
+        display: flex;
+        font-size: 1.5rem;
+        align-items: center;
+    padding-left: 30px;   
+    margin-bottom: 30px; 
+    
+    
+    }
+    .achi-first-div h3{
+        width: 100%;
+        background-color: #1c635d;
+        color: white;
+        height: 44px;
+        display: flex;
+        align-items: center;
+    padding-left: 30px;   
+    margin-bottom: 50px; 
+    }
+    .skill-first-div h3{
+        width: 100%;
+        background-color: #1c635d;
+        color: white;
+        height: 44px;
+        display: flex;
+        align-items: center;
+    padding-left: 30px;   
+    margin-bottom: 50px; 
+    }
+    .inp-cont{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 15px 25px 15px;
+        width: 88%;
+        gap: 4px;
+        margin-top: 0px;
+    }
+    .achi-inp-cont{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 15px 25px 15px;
+        width: 88%;
+        gap: 4px;
+        margin-top: 0px;
+    }
+    #car-inp{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 15px 25px 15px;
+        width: 88%;
+        gap: 4px;
+        margin-top: 0px;
+    }
+    
+    
+    
+    .skill-inp-cont{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20px 25px 24px;
+        width: 35%;
+    }
+    
+    .pf{
+    
+        padding-top: 7px;
+        padding-left: 8px;
+    }
+    .input-sec{
+        
+        width: 100%;
+    
+        align-items: center;
+        justify-content: center;
+    }
+    .achi-input-sec{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    
+        align-items: center;
+        justify-content: center;
+        margin:20px 20px 25px 10px; ;
+    }
+    .input-group{
+    padding: 0px 25px 0px 25px;
+    width: 70%;
+    }
+    .input-group input{
+        margin-bottom: 15px;
+        margin-top: 2px;
+        
+    }
+    #rem{
+        height: 0;
+        width: 0;
+        display: none;
+    }
+    
+        
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.4rem;
+}
+.navbar-brand-text{
+
+    font-weight: 600;
+    background-image:linear-gradient(43deg, #9441d0 , #c850c0 );
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-left: 10px;
+}
+.navbar-brand-text i{
+    background-image:linear-gradient(43deg, #9441d0 , #c850c0 , #ffcc70);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+    
+    button{
+        border: 1px solid #084C41;
+        padding: 2px 8px;
+        background-color: #1c635d;
+        color: white;
+        border-radius: 2px;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .btn{
+    width: 100%;
+    align-items: end;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    
+    }
+    
+    label{
+
+        margin-bottom: 4px;
+        color: #9441d0;
+    }
+    input::placeholder{
+        padding-left: 13px;
+        color: #9441d0;
+    }
+    input text{
+        margin-left: 30px;
+    }
+    input{
+      width: 100%;
+      height: 37px;
+      outline: none;
+      border: 1.4px solid #9441d0;
+    border-radius: 4px;
+      padding-left: 13px;
+      background: transparent;
+      color: #9441d0;
+    }
+    input:focus{
+        outline:1.5px solid #9441d0;
+    }
+    .logo{
+        width: 66%;
+        margin-left: 20px;
+    }
+}
